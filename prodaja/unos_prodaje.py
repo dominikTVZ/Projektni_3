@@ -27,7 +27,7 @@ def unos_prodaje(korisnici, kategorije, redni_broj):
 
     #ODABIR ARTIKLA
     print(f"Odaberite artikl {redni_broj}. prodaje: ")
-    for k, artikl in enumerate(kategorije[odabrana_kategorija]['artikli']):
+    for k, artikl in enumerate(kategorije[odabrana_kategorija]['artikli'], start = 1):
         print(get_artikl(k, artikl))
 
     odabrani_artikl = int(input("Odabrani artikl: "))-1
