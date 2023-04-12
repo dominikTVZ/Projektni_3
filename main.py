@@ -2,6 +2,7 @@ from korisnik import unos_korisnika
 from kategorija import unos_kategorije
 from prodaja import unos_prodaje, ispis_prodaje
 
+
 korisnici = []
 broj_korisnika = int(input("Unesite broj korisnika: "))
 for i in range(1, broj_korisnika+1):
@@ -23,4 +24,3 @@ for i in range(1, broj_prodaja+1):
 for i, prodaja in enumerate(prodaje, start = 1):
     print(f"Prodaja {i}")
     ispis_prodaje(prodaja)
-
