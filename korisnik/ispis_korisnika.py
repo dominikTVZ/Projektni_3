@@ -6,5 +6,6 @@ def ispis_korisnika(korisnik):
     print(f"\tTelefon: {korisnik['telefon']}")
     print(f"\tEmail: {korisnik['email']}")
     ispis_osobne(korisnik['osobna'])
+
 def get_korisnik(redni_broj, korisnik):
     return f"{redni_broj}. {korisnik['ime']} {korisnik['prezime']}"
